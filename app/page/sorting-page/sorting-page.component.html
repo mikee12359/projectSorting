@@ -1,13 +1,5 @@
 <StackLayout class="p-20" >
-    <!-- <StackLayout class="sorting-main-layout"> -->
         <TextField hint="1,2,3,4" [(ngModel)]="sortedString"></TextField>
         <Label [text]="sortedNumber" fontSize="18" marginLeft="1%" textWrap="true"></Label>
-        <Button text="Start Sorting" (tap)="sortingInputNumber()"></Button>
-    <!-- </StackLayout> -->
+        <Button text="Start Sorting" (tap)="splitSortingInputNumber()"></Button>
 </StackLayout>
-
-<!-- <StackLayout class="p-20">
-    <TextField hint="Number 1" [(ngModel)]="number1"  ></TextField>
-    <TextField hint="Number 2" [(ngModel)]="number2" ></TextField>
-    <Button text="Calculate" (tap)="calculate()"></Button>
-</StackLayout> -->
